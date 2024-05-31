@@ -13,7 +13,7 @@ from langchain.memory import ConversationBufferMemory
 import chainlit as cl
 
 llm_local = ChatOllama(model="mistral:instruct")
-llm_groq = ChatGroq(model_name='mixtral-8x7b-32768')
+llm_groq = ChatGroq(model_name='mixtral-8x7b-32768') # If you want to use this model, you need to set an API KEY in .env
 
 # Depending on which model you want to use, you need to install Ollama. then you need to use the CLI to pull the model that you need to use.
 
